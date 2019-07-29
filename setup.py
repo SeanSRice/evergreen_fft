@@ -5,14 +5,15 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
      name='evergreen_fft',  
-     version='1.071111',
+     version='1.0711111',
      author="Rice",
      author_email="mrseanrice@gmail.com",
      description="A python fft package based on evergreenforest",
      long_description=long_description,
    long_description_content_type="text/markdown",
      url="https://github.com/SeanSRice/evergreen_fft.git",
-     packages=setuptools.find_packages(),
+     packages=["evergreen_fft"],
+     include_package_data=True,
      classifiers=[
          "Programming Language :: Python :: 2.7",
          "License :: OSI Approved :: MIT License",
