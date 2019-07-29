@@ -1,1 +1,1 @@
-recursive-include evergreen_fft *.py *.so
+recursive-include *.py *.so
