@@ -12,7 +12,8 @@ setuptools.setup(
      long_description=long_description,
    long_description_content_type="text/markdown",
      url="https://github.com/SeanSRice/evergreen_fft.git",
-     packages=setuptools.find_packages(),
+     packages=['evergreen_fft'],
+     pacage_data = {'evergreen_fft' : files},
      classifiers=[
          "Programming Language :: Python :: 2.7",
          "License :: OSI Approved :: MIT License",
