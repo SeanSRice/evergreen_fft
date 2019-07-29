@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
      name='evergreen_fft',  
-     version='1.07',
+     version='1.071',
      author="Rice",
      author_email="mrseanrice@gmail.com",
      description="A python fft package based on evergreenforest",
