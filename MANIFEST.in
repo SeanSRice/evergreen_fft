@@ -1,2 +1,1 @@
-evergreen_fft/evergreen_fft.py
-evergreen_fft/evergreen_fft.so
+recursive-include evergreen_fft *
