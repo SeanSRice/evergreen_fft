@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-     name='evergreen_fft',  
+     name='evergreenfft',  
      version='1.07111111',
      author="Rice",
      author_email="mrseanrice@gmail.com",
