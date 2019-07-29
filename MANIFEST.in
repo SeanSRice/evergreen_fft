@@ -1,5 +1,5 @@
 include *.txt
-recursive include evergreen_fft *.py *.so
-include evergreen_fft
-include evergreen_fft/evergreen_fft.py
-include evergreen_fft/_evergreen_fft.so
+recursive include evergreenfft *.py *.so
+include evergreenfft
+include evergreenfft/evergreen_fft.py
+include evergreenfft/_evergreen_fft.so
